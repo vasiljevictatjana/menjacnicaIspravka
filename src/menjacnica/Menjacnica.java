@@ -5,7 +5,6 @@ import java.util.LinkedList;
 
 import interfejs.MenjacnicaInterfejs;
 
-
 public class Menjacnica implements MenjacnicaInterfejs {
 	
 	private LinkedList<Kurs> kursevi = 
