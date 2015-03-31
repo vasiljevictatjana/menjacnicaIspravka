@@ -13,9 +13,7 @@ public class Menjacnica implements MenjacnicaInterfejs {
 
 	public void dodajKurs(Kurs kurs) {
 		
-		if(kurs.getDatumKursa().before(new GregorianCalendar(GregorianCalendar.YEAR, GregorianCalendar.MONTH, GregorianCalendar.DAY_OF_MONTH)))
-			throw new RuntimeException("Datum ne sme biti u proslosti!");
-	
+		
 
 		if (kursevi.contains(kurs))
 			throw new RuntimeException("Kurs vec postoji!");
